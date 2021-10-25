@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Phase 1') {
             steps {
-                echo 'This is the first phase of the pipeline aka Initialization'
+                echo 'This phase is removed'
                 echo 'Riemann is great'
             }
         }
